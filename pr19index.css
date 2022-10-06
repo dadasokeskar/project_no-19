@@ -1,0 +1,85 @@
+#container{
+    margin-top: 15%;
+    justify-content: center;
+    display: grid;
+    grid-gap: 1px;
+    grid-template: repeat(5, 80px)/ repeat(6, 80px) ;
+    grid-template-areas: 
+    "a b c c d ."
+    "a f . . h ."
+    "e f . . h ."
+    "i j k l l ."
+    "i m n n o p"; 
+}
+
+div#container div{
+    text-align: center;
+    color: aliceblue;
+} 
+
+div#container div:first-child{
+    grid-area: a;
+    background-color: red;
+}
+
+div#container div:nth-child(2){
+    grid-area: b;
+    background-color: rebeccapurple;
+}
+div#container div:nth-child(3){
+    background-color: red;
+    grid-area: c;
+}
+div#container div:nth-child(4){
+    grid-area: d;
+    background-color: royalblue;
+}
+div#container div:nth-child(5){
+    grid-area: e;
+    background-color: rebeccapurple;
+}
+div#container div:nth-child(6){
+    grid-area: f;
+    background-color: orange;
+}
+/* div#container div:nth-child(7){
+    grid-area: g;
+    color: black;
+} */
+div#container div:nth-child(8){
+    grid-area: h;
+    background-color: orange;
+}
+div#container div:nth-child(9){
+    grid-area: i;
+    background-color: orange;
+}
+div#container div:nth-child(10){
+    grid-area: j;
+    background-color: royalblue;
+}
+div#container div:nth-child(11){
+    grid-area: k;
+    background-color: rebeccapurple;
+}
+div#container div:nth-child(12){
+    grid-area: l;
+    background-color: red;
+}
+div#container div:nth-child(13){
+    grid-area: m;
+    background-color: rebeccapurple;
+}
+div#container div:nth-child(14){
+    grid-area: n;
+    background-color: orange;
+}
+div#container div:nth-child(15){
+    grid-area: o;
+    background-color: rebeccapurple;
+}
+
+div#container div:nth-child(16){
+    grid-area: p;
+    background-color: royalblue;
+}
